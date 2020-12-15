@@ -1,0 +1,24 @@
+{
+  "name": "airdrop_torn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "csv": "node src/toCsv.js",
+    "tsv": "node src/toTsv.js",
+    "lint": "tslint --project ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "decimal.js": "^10.2.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7",
+    "web3": "^1.2.11"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.2",
+    "tslint-config-standard": "^9.0.0"
+  }
+}
